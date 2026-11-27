@@ -6,7 +6,7 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 
-DATA_PATH = PROJECT_ROOT / "data" / "raw" / "transactions.csv"
+DATA_PATH = PROJECT_ROOT / "data" / "raw" / "aml_transactions_sample.csv"
 
 
 def load_transactions():
